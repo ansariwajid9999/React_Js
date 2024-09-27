@@ -11,7 +11,19 @@ function App() {
     else{
       setCounter(counter + 1);
     }
+
+    {/*setCounter(counter + 1);
+    setCounter(counter + 1);
+    setCounter(counter + 1);
+    setCounter(counter + 1);
+    }*/}
+
+    {/*setCounter(prevCounter => prevCounter + 1);
+    setCounter(prevCounter => prevCounter + 1);
+    setCounter(prevCounter => prevCounter + 1);
+    setCounter(prevCounter => prevCounter + 1);*/}
   }
+
   const removeValue = () => {
     if(counter === 0){
       console.log("error! , Can't decrease the value furhter.");
@@ -19,6 +31,11 @@ function App() {
     else{
       setCounter(counter - 1);
     }
+
+    {/*setCounter(prevCounter => prevCounter - 1);
+    setCounter(prevCounter => prevCounter - 1);
+    setCounter(prevCounter => prevCounter - 1);
+    setCounter(prevCounter => prevCounter - 1);*/}
   }
 
   return (
