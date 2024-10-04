@@ -2,6 +2,9 @@ import React from 'react'
 
 function Card({username , description="Visit me."}) {
   console.log(username , description);
+
+// function Card(props) {
+//   console.log("props" , props);
   
   return (
       <a
@@ -49,6 +52,32 @@ function Card({username , description="Visit me."}) {
           </div>
         </dl>
       </a>
+
+
+
+      //  This is the App.jsx commented code which i write in this component.
+
+
+      //  <figure class="bg-slate-100 rounded-xl p-8 dark:bg-slate-800">
+      //   <img class="w-24 h-24 rounded-full mx-auto" src="https://images.pexels.com/photos/28532430/pexels-photo-28532430/free-photo-of-sailing-ship-at-sunset-near-tropical-island.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="" width="384" height="512" />
+      //   <div class="pt-6 space-y-4">
+      //     <blockquote>
+      //       <p class="text-lg font-med">
+      //         “Tailwind CSS is the only framework that I've seen scale
+      //         on large teams. It’s easy to customize, adapts to any design,
+      //         and the build size is tiny.”
+      //       </p>
+      //     </blockquote>
+      //     <figcaption>
+      //       <div>
+      //         Sarah Dayan
+      //       </div>
+      //       <div>
+      //         Staff Engineer, Algolia
+      //       </div>
+      //     </figcaption>
+      //   </div>
+      // </figure> 
   )
 }
 
